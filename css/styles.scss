@@ -1,11 +1,12 @@
 
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
+$color-primary: #5E503F;
+$color-secondary: #22333B;
+$color-pale: #EAE0D5;
+$color-mid: #C6AC8F;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-light-gray: #d3d3d3;
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -69,3 +70,7 @@ footer {
 .carousel {
   border: solid $color-secondary;
 }
+
+@import 'modal';
+@import 'card';
+@import 'review-section'

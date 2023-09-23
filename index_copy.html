@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.scss" />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Nucamp: A Better Way To Camp</title>
 </head>
 
@@ -29,7 +30,7 @@
                 </div>
                 <div class="col">
                     <h1>Nucamp</h1>
-                    <h2>a better way to camp</h2>
+                    <h1>a better way to camp</h1>
                 </div>
                 <div class="col col-md-4 col-xl-2  mt-4">
                     <a href="#reserveForm" class="btn btn-info btn-lg text-white text-nowrap">Reserve Campsite</a>
@@ -106,6 +107,24 @@
     <!-- main content -->
     <main class="container">
 
+                <!-- discover section -->
+                <section class="row row-content align-items-center">
+                    <div class="col-sm-4 col-md-3 order-sm-first">
+                        <h2 class="text-sm-end">Discover & Review</h2>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <!--
+                            <img class="me-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
+                            -->
+                            <div class="align-self-center">
+                                <h3>Our Campsites</h3>
+                                <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
         <!-- carousel -->
         <section class="row row-content">
             <div class="col-md-8 mx-auto">
@@ -161,21 +180,7 @@
             </div>
         </section>
     
-        <!-- discover section -->
-        <section class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3 order-sm-last">
-                <h2 class="text-sm-end">Discover & Review</h2>
-            </div>
-            <div class="col">
-                <div class="d-flex">
-                    <img class="me-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
-                    <div class="align-self-center">
-                        <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
 		<!-- feature section -->
         <section class="row row-content align-items-center">
@@ -270,7 +275,7 @@
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html"> Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Sites</a></li>
                         <li><a href="contactus.html">Contact</a></li>
@@ -292,7 +297,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript plugins -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     
 </body>
 </html>
